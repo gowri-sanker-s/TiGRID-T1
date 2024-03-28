@@ -702,7 +702,6 @@ const PriceButton = styled.button`
   width: 50%;
 `;
 
-
 // Mission and Vision Section Styles
 
 const MissionAndValuesSection = styled.div`
@@ -846,7 +845,6 @@ const LineOne = styled.div`
   border-bottom: 1px solid gray;
 `;
 
-
 // Message Section Styles
 
 const MessageSection = styled.div`
@@ -988,7 +986,6 @@ const ModeOfOpListItemsDesc = styled.p`
   }
 `;
 
-
 // Gallery Section Styles
 const Gallery = styled.div`
   padding: 2% 0;
@@ -1105,7 +1102,6 @@ const PeoplePara = styled.p`
 const GetInTouch = styled.div`
   margin: 5% auto;
   width: 80%;
-  border: 2px solid black;
 `;
 const MapAndForm = styled.div`
   background: #ba181a;
@@ -1114,7 +1110,6 @@ const MapAndForm = styled.div`
   display: flex;
   align-items: center;
   gap: 2%;
-  border: 2px solid green;
 
   @media screen and (max-width: 780px) {
     flex-direction: column;
@@ -1145,6 +1140,7 @@ const Form = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 20px;
   gap: 40px;
   padding: 2% 0;
   @media screen and (max-width: 780px) {

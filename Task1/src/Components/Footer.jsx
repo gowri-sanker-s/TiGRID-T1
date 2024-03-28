@@ -171,13 +171,11 @@ const RightLinksContainer = styled.ul`
   list-style-type: none;
   color: #d9d9d9;
 
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width:  680px) {
     grid-template-columns: repeat(2, 1fr);
-    background: blue;
   }
   @media screen and (max-width: 380px) {
     grid-template-columns: repeat(1, 1fr);
-    background: blue;
   }
 `;
 const RightLinks = styled.li`
